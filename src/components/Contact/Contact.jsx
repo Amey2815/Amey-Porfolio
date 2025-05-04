@@ -7,14 +7,14 @@ import { FaTwitter } from "react-icons/fa";
 import { PinContainer } from '../ui/3d-pin';
 const Contact = ({ Darkmode }) => {
   return (
-    <div id='contact' className='flex md:flex-row flex-col h-96 justify-between items-center my-10 md:px-5 px-0'>
-      <div className='w-full h-full' >
+    <div id='contact' className='flex md:flex-row flex-col md:h-[60vh] h-50vh  justify-between items-center mx-8 my-5 md:px-5 px-0'>
+      <div className='my-8 mx-5' >
         <PinContainer
           title='Amey Powar'
           href="https://www.instagram.com/powaramey1?igsh=dHQ0MDJ3N3E4Ynhi&utm_source=qr"
         >
-          <div className='flex  flex-col w-96  ' >
-            <img className='md:w-[900px] w-[300px] h-full rounded-2xl' src={assets.contact} alt="" />
+          <div className='flex  flex-col md:w-96 w-80  ' >
+            <img className='md:w-[900px] w-[400px] h-full rounded-2xl' src={assets.contact} alt="" />
           </div>
         </PinContainer>
 
